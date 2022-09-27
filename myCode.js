@@ -65,8 +65,7 @@ let lastName = "Kabo";
 
     alert("This is how many seconds in " + numDaysInMonth + " months =" + secondsInMonth);*/
 
-    alert("Hello world");
-    console.log("Hello");
+    
     
 
     
