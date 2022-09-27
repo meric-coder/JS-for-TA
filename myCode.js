@@ -48,7 +48,7 @@ let lastName = "Kabo";
     alert("Dear " + login + "," + " your email is" + email + ", your pass is" + pass); */
 
     // Task 8
-    const amount = 60;
+    /*const amount = 60;
     let secondsInHour = prompt("Enter hours");
     let numSecondsInHour = Number(secondsInHour)*60;
     alert(" This is how many seconds in " + secondsInHour + "hour(s)" + "=" + amount*numSecondsInHour);
@@ -63,7 +63,10 @@ let lastName = "Kabo";
     let numAmountOfDays = Number(amountOfDays);
     let secondsInMonth = numDaysInMonth*numAmountOfDays*amount*24*60;
 
-    alert("This is how many seconds in " + numDaysInMonth + " months =" + secondsInMonth);
+    alert("This is how many seconds in " + numDaysInMonth + " months =" + secondsInMonth);*/
+
+    alert("Hello world");
+    console.log("Hello");
     
 
     
