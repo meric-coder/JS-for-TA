@@ -25,3 +25,15 @@ let y = 2;
 let res4 = (Boolean(x) + String(y))*y;
 console.log(res4);
 console.log(typeof res4);*/
+
+
+/*let age = prompt("Enter digit");
+let number  = (age >= 0 && age % 2 == 0) ? "Positive and even" : "Negative or odd";
+console.log(number);*/
+
+/*let age = prompt("Enter digit");
+let divider = 7;
+let res = (age > 0 && age % divider == 0) ? "Yes" : "No";
+console.log(res);*/
+
+
