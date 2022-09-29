@@ -52,6 +52,32 @@ console.log(arr[4]);
 arr.splice(0,1);
 console.log(arr);*/
 
+// Task 4
+/*let cities = ["Rome", "Lviv", "Warsaw"];
+let myString = console.log(cities[0] + '*' + cities[1] + "*" + cities[2]);*/
+
+//Task 5
+/*let isAdult = prompt("How old are you?");
+const age = 18;
+let isAdultString = String(isAdult);*/
+//let answer = (age >18) ? "You are adult" : " You are not adult";
+//console.log(answer);
+ 
+// Task 5 (Ifelse)
+
+/*if (isAdult > age) {
+      console.log("You are adult");
+} else if (isAdult < age && isAdult > 0) {
+      console.log("You are not adult");
+}else if (isAdult == isAdultString || isAdult < 0 )
+{
+      console.log("You entered a String or negative value");
+}*/
+
+
+
+
+
 
 
 
