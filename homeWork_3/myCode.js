@@ -75,7 +75,44 @@ console.log(raiseToDegree(Number(a),Number(b)));*/
     } 
  };
  }
-findMin(12,14,4,-4,0.2);
+findMin(12,14,4,-4,0.2);*/
+
+// Task 6
+
+/*function findUnique(arr) {
+    for (i = 0; i < arr.length; i++) {
+        for (let k = (i + 1); k < arr.length; k++) {
+            if (arr[k] === arr[i]) {
+                return false;
+            }     
+        }
+    }
+    return true;
+}
+
+console.log(findUnique([1,3,3,4,4]));*/
+
+// Task 7
+
+/*function lastElem(arr,count) {
+    return (count == null) ? arr.pop() : arr.slice(-count);
+}
+
+
+console.log( lastElem([3,4,10,-5]));
+console.log(lastElem([3,4,10,-5], 2 ));
+console.log(lastElem([3,4,10,-5], 8));*/
+
+// Task 8
+function firstLetter(str) {
+    const arr1 = str.split(' ');
+    return arr1;
+}
+
+
+
+console.log(firstLetter("i love java script"));
+
 
 
 
