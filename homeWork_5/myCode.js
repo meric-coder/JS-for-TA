@@ -66,45 +66,67 @@ showFullName(middleName) {
 
 
   // Task 4
-   /*let workerList = [];
+   /*
+class Worker {
+    #experience = 1.2;
 
-  class Worker {
-    _experience = 1.2;
-  constructor(fullName, dayRate, workingDays)  {
-    this.fullName = fullName;
-    this.dayRate = dayRate;
-    this.workingDays = workingDays;
-     
-  }
-    showSalary() {
+    constructor(fullName, dayRate, workingDays) {
+        this.fullName = fullName;
+        this.dayRate = dayRate;
+        this.workingDays = workingDays;
+    }
+
+    #getSalary() {
         return this.dayRate * this.workingDays;
     }
 
-   showSalaryWithExperience() {
-    console.log(this.dayRate * this.workingDays * this._experience);
-   }
-      get experience() {
-        return this._experience;
-      }
-      set experience(value) {
-        this._experience = value;
-      }
+    showSalary() {
+        console.log(this.#getSalary());
+    }
 
-  }
+    showSalaryWithExperience() {
+        console.log(this.getSalaryWithExperience());
+    }
+    get getExperience() {
+        return this.#experience;
+    }
+    set setExperience(value) {
+        this.#experience = value;
+    }
+    getSalaryWithExperience() {
+        return this.#getSalary() * this.#experience;;
+    }
 
-let workerOne = new Worker("Oleg Bohdanovych", 1, 5);
-workerOne.showSalary();
-workerOne.showSalaryWithExperience();
-workerOne.experience = 1.5;
-console.log("New experience: ");
-workerOne.showSalaryWithExperience();
+};
+
+let workers = [
+    new Worker("John Johnson", 20, 23),
+    new Worker("Tom Tomson", 48, 22),
+    new Worker("Andy Ander", 29, 23)
+];
+for (let i = 0; i < workers.length; i++) {
+    let worker = workers[i];
+    console.log(worker.fullName);
+    worker.showSalary();
+    console.log("New experience: " + worker.getExperience);
+    worker.showSalaryWithExperience();
+    worker.setExperience = parseFloat((Math.random() * (worker.getExperience - 2) + 2).toFixed(1));
+    console.log("New experience: " + worker.getExperience);
+    worker.showSalaryWithExperience();
+};
+
+console.log("---");
+let sortedWorkers = workers.sort((a, b) => a.getExperience - b.getExperience);
+for (let i = 0; i < sortedWorkers.length; i++) {
+    console.log(`worker_${sortedWorkers[i].fullName}: ${sortedWorkers[i].getSalaryWithExperience()} `);
+};
 
 */
 
 
 //Task 5
 
-class GeometricFigure {
+/*class GeometricFigure {
  
    getArea() {
     return 0;
@@ -159,5 +181,11 @@ class Circle extends GeometricFigure {
     }
     let figures = [new Triangle(4,5), new Square(7), new Circle(5)];
     console.log(handleFigures(figures));
+
+    */
+
+    
+
+
 
 

@@ -20,7 +20,20 @@ console.log("Selector text 1: " + showList.getElementsByTagName("p")['1'].textCo
 console.log("Selector text 2: " + showList.getElementsByTagName("p")['2'].textContent);
 */
 
+// Task 4
 
+/*const myList = document.getElementById("list");
+console.log(myList.firstElementChild.textContent);
+console.log(myList.lastElementChild.textContent);
+console.log(myList.firstElementChild.nextElementSibling.textContent);
+console.log(myList.lastElementChild.previousElementSibling.textContent);
+console.log(myList.lastElementChild.previousElementSibling.previousElementSibling.textContent);
+*/
+
+//Task 5
+
+
+let myStyle = document.body.firstElementChild.textContent;
 
 
 
