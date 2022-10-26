@@ -67,6 +67,21 @@ setTimeout(function(){
 
          }*/
 
+         // Task  6
+
+         /* function windowSize() {
+            let width = window.innerWidth;
+            let height = window.innerHeight;
+            let size = "Width: " + w + ", " + "Height: " + height;
+          }
+
+          window.addEventListener("resize", windowSize);*/
+
+          // Task 7   In Progress...
+
+          
+         
+
 
 
    
