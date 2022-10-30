@@ -5,11 +5,11 @@
 
 setTimeout(function(){
     myWindow.resizeTo(500,500);
-} , 3000);
+} , 2000);
 
 setTimeout(function(){
     myWindow.moveTo(200,200);
-} , 3000);
+} , 4000);
 
 setTimeout(function(){
     myWindow.close();
@@ -77,7 +77,38 @@ setTimeout(function(){
 
           window.addEventListener("resize", windowSize);*/
 
-          // Task 7   In Progress...
+          // Task 7   
+/*
+const cityArr = {
+   "ger" : ["Berlin", "Dortmund", "Frankfurt", "Bayern"],
+   "usa" : ["New-York", "Washington", "Boston", "Chikago"],
+   "ukr" : ["Lviv", "Odesa", "Rivne", "Kharkiv"]
+}
+
+let selec = document.getElementById("country");
+selec.addEventListener("change",createList);
+selec.addEventListener("change", toParagraph);
+
+let citySelec = document.getElementById("cities");
+citySelec.addEventListener("change", toParagraph);
+
+function createList() {
+   citySelec.innerHTML = "";
+   let selectedCountry = selec.value;
+   for (let i = 0; i < cityArr[selectedCountry].length; i+=1) {
+      let newOption = document.createElement("option");
+      newOption.innerHTML = cityArr[selectedCountry][i];
+      citySelec.appendChild(newOption);
+}
+}
+
+let parag = document.querySelector("p");
+function toParagraph() {
+    parag.innerHTML = "";
+    parag.innerHTML = selec.options[selec.selectedIndex].text + ", "
+    + citySelec.options[citySelec.selectedIndex].text;
+}
+*/
 
           
          
